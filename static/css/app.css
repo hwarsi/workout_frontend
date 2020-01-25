@@ -1,27 +1,36 @@
 
-            #OuterContainer {
-                color: green;      
-  
-              }
-  ​
-              h1 {
-                  color:orange
-              }
-  ​
-              ul {
-                  background: yellow;
-              }
-  ​
-              li {
-                  color:black;
-                  background:white;
-                  padding: 5px;
-              }
-  
-              #OuterContainer:hover {
-                  border-color:red;
-              }
-  
-  
-              li:hover {
-                  background: green;
+ #OuterContainer {
+     width: 300px;
+ ​
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ ​
+     background: orange;
+     border-style: groove;
+     border-width: 5px;
+     border-color: black;
+ }
+ ​
+ #OuterContainer:hover {
+     border-color:red;
+ }
+ ​
+ h1 {
+     color:white;
+ }
+ ​
+ ul {
+     background: yellow;
+ }
+ ​
+ li {
+     color:black;
+     background:white;
+     padding: 5px;
+ }
+ ​
+ li:hover {
+     background:green;
+ }
