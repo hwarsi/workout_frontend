@@ -1,7 +1,7 @@
 from flask import Flask, render_template, jsonify
 
 
-workout_app = Flask(___name__)
+workout_app = Flask(__name__)
 
 
 @workout_app.route("/home")
