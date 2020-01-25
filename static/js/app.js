@@ -20,10 +20,10 @@ if (x === 12) {
 }
 
 // Example of a list/array
-var exampleList = [1,2,3,4,5]
+var exampleList = [1,2,3,4,5];
 
 // Example for loop
-for (var i=0; i < exampleList.length(); i++) {
+for (var i=0; i < exampleList.length; i++) {
     console.log(exampleList[i]);
 }
 
