@@ -8,26 +8,13 @@
     border-style: groove;
     border-width: 5px;
     border-color: black;
-}   
- 
- #OuterContainer:hover {
-     border-color:red;
- }
- ​
- h1 {
-     color:white;
- }
- ​
- ul {
-     background: yellow;
- }
- ​
+}
+ #OuterContainer:hover {border-color:red;}
+ h1 {color:white;}
+ ul { background: yellow;}
  li {
      color:black;
      background:white;
      padding: 5px;
  }
- ​
- li:hover {
-     background:green;
- }
+ li:hover {background:green;}
