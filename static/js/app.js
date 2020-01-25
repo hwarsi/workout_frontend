@@ -33,7 +33,6 @@ function exampleFunc() {
 }
 // This runs a function
 exampleFunc();
-​
 
 
 
